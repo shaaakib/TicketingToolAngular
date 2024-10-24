@@ -11,8 +11,8 @@ import { MasterService } from '../../services/master.service';
 })
 export class ParentcategoryComponent {
   masterSrc = inject(MasterService);
-  deptList: any[] = [];
   gridList: any[] = [];
+  deptList: any[] = [];
 
   newObj: any = {
     categoryId: 0,
